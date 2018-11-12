@@ -24,7 +24,7 @@ class Register extends React.Component {
   }
 
   onSubmitSignIn = () => {
-    fetch('https://git.heroku.com/whispering-falls-68900.gitgit/register', {
+    fetch('https://whispering-falls-68900.herokuapp.com/register', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
